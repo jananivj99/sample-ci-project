@@ -14,7 +14,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install -r requirement.txt
+      - pip install -r requirements.txt
 
   build:
     commands:
